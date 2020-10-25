@@ -1,0 +1,41 @@
+ion-icon {
+    color:whitesmoke;
+    --ionicon-stroke-width: 80px;
+  }
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.orange{
+  background-color: orange;
+}
+.red{
+  background-color: red;
+}
+
+.violet{
+  background-color: violet;
+}
+
+#city-list li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: blueviolet;
+  line-height: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: white;
+  display: block;
+}
+
+#city-list li:hover {
+  text-decoration: none;
+  color: #000000;
+  background-color: #33B5E5;
+}
