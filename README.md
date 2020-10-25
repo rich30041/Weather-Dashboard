@@ -33,10 +33,11 @@ line 5 UV Index ###
 column 2 row 2 just has "5-Day Forecast"  
 
 column 2 row 3  
-6 blue boxes for forecast? how many days can get from weather   
+5 blue boxes for forecast? how many days can get from weather   
 each box contains date, temp, humidity, (icon cloud, sun, rain? need to see what avail in weather)  
 
 # Test page
 Created test_html with html layout of page
 
 # Website
+https://rich30041.github.io/Weather-Dashboard/.
