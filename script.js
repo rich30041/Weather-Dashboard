@@ -165,7 +165,7 @@ $("#enter-city").keypress(function(event) {
 
                     var ptempK = respForecast.list[i].main.temp;
                     var convtemp = parseInt((ptempK)* 9/5 - 459);
-                    var tempP = $("<p>").text("Tempeture: "+ convtemp + " °F");
+                    var tempP = $("<p>").text("Temperature: "+ convtemp + " °F");
                     var humidityP = $("<p>").text("Humidity: "+ respForecast.list[i].main.humidity + " %");
                     forecastDiv.append(forecasth4);
                     forecastDiv.append(imgtag);
