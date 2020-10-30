@@ -94,7 +94,7 @@ $("#enter-city").keypress(function(event) {
       citydate = $("<h3>").text(response.name + " "+ FormatDay());
       $("#weather-today").append(citydate);
       var convtemp = parseInt((response.main.temp)* 9/5 - 459);
-      var citytemp = $("<p>").text("Tempeture: "+ convtemp + " °F");
+      var citytemp = $("<p>").text("Temperature: "+ convtemp + " °F");
       $("#weather-today").append(citytemp);
       var cityhumid = $("<p>").text("Humidity: "+ response.main.humidity + " %");
       $("#weather-today").append(cityhumid);
